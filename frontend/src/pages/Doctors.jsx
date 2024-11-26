@@ -28,8 +28,8 @@ const doctor = () => {
   return (
     <div className="flex flex-col ">
       <p className="text-red-600 animate-pulse text-3xl flex font-bold mx-auto"> We ARE SORRY FOR INCONVIENCE WE WORKING ON THE UI </p>
-      <p className="flex text-center items-center text-2xl mx-auto">Browse Through the doctors specialist</p>
-      <div className="flex flex-row px-2 py-2 gap-4">
+      {/* <p className="flex text-center items-center text-2xl mx-auto">Browse Through the doctors specialist</p>
+      <div className="flex flex-row px-2 py-2 gap-4"> */}
         {/* <button>Filter</button> */}
         {/* <div className="flex-col gap-7 text-sm text-gray-600">
           <p onClick={()=>navigate('/doctors/General Physician')}  className="`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer">General Physician</p>
@@ -39,7 +39,7 @@ const doctor = () => {
           <p  onClick={()=>navigate('/doctors/')}  className="`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer">Neurologist</p>
           <p  onClick={()=>navigate('/doctors/')}  className="`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer">Gastrologist</p>
         </div> */}
-        <div className="w-full grid grid-cols-auto gap-4 pt-5 gap-y-6 px-3 sm:px-0">  
+        {/* <div className="w-full grid grid-cols-auto gap-4 pt-5 gap-y-6 px-3 sm:px-0">   */}
           {
             doctors.map((item, index) => {
               return (
@@ -67,8 +67,8 @@ const doctor = () => {
 
             // })
           }
-        </div>
-      </div>
+        {/* </div>
+      </div> */}
     </div>
   );
 };
